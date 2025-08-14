@@ -2,9 +2,9 @@
 
 A safety-focused health information chatbot using TinyLlama-1.1B-Chat model.
 
-## Features
+# Features
 
-# Prompt Engineering:
+## Prompt Engineering:
 
 Clear system prompt defining the assistant's role and constraints
 
@@ -12,7 +12,7 @@ Rules for safe, non-diagnostic responses
 
 Tone and length guidelines
 
-# Safety Mechanisms:
+## Safety Mechanisms:
 
 Keyword filtering for potentially dangerous content
 
@@ -20,7 +20,7 @@ Automatic disclaimer addition for medical-adjacent responses
 
 Response sanitization to remove markdown formatting
 
-# User Experience:
+## User Experience:
 
 Friendly, conversational interface
 
@@ -28,11 +28,11 @@ Error handling for API issues
 
 Interactive chat loop or single query mode
 
-# Customization:
+## Customization:
 
 Adjustable temperature parameter
 
-## How to Use
+# How to Use
 Install requirements:
 
 bash
@@ -43,14 +43,14 @@ Create an account at platform.openai.com
 
 Get your API key from the "API Keys" section
 
-# Run the chatbot:
+## Run the chatbot:
 
 Replace "your-api-key-here" with your actual key
 
-# Run the script: 
+## Run the script: 
 python health_chatbot.py
 
-# Example queries to test:
+## Example queries to test:
 
 "What are common causes of headaches?"
 
